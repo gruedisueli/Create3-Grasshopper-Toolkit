@@ -24,6 +24,7 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
     1. Download Oracle VM Virtual Box (or your preferred virtual machine software)
     1. Set up a virtual machine with at least 4gb of RAM, 2 CPUs, and 32gb of storage.
     1. Install Ubuntu 22.04 TS 64 bit Desktop on it from an image you download.
+    1. Make sure your Virtual Machine's network adapter settings are set to "bridged" to prevent communication issues with the Create3. You can change these settings in Virtual Box.
 1. After Ubuntu is set up
 1. Start your system (either Pi or virtual machine)
 1. If you need to set up user credentials, do so
@@ -44,4 +45,6 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
 1. Additionally, you can set up syntax highlighting for VS Code with Ros2 [here](https://www.youtube.com/watch?v=hf76VY0a5Fk)
 1. The [Ros2 Humble Docs](https://docs.ros.org/en/humble/index.html) are also excellent and provide both high level and detailed information.
 
-
+### Setup of Create3 robot
+1. Please refer to iRobot's extensive documentation found [here](https://iroboteducation.github.io/create3_docs/)
+1. Also, the [iRobot Learning Library](https://edu.irobot.com/learning-library) contains hours of useful tutorials.
