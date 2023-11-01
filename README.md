@@ -39,6 +39,14 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
     1. After you install code, verify that it works by typing "code ." in the terminal and making sure the VS code opens
 1. Set up the Ros2 syntax highlighting for VS code [here](https://www.youtube.com/watch?v=hf76VY0a5Fk)
 1. Install git, using the directions for "install git on Linux" [here](https://www.atlassian.com/git/tutorials/install-git)
+1. Install Python3 "sudo apt install python3"
+1. set the correct version of setup tools "pip install setuptools==58.2.0" because you might get the error outlined [here](https://answers.ros.org/question/348083/error-ros2-run-package-not-found/). You might have to install pip first.
+1. Verify contents of bashrc contains following lines at the bottom, by running the command "gedit ~/.bashrc"
+    1. "source /opt/ros/humble/setup.bash"
+    1. "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash"
+    1. "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
+1. Set up your ros2 workspace following instructions in this [tutorial](https://www.youtube.com/watch?v=idQb2pB-h2Q)
+    1. After your project is set up, run "gedit ~/.bashrc" and add "source ~/{your project directory}/ros2_ws/install/setup.bash"
 
 ### Highly recommended tutorials on Ros2!
 1. There is an OUTSTANDING tutorial for Ros2 found [here](https://www.youtube.com/watch?v=idQb2pB-h2Q)
