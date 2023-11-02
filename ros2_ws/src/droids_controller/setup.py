@@ -21,6 +21,14 @@ setup(
     entry_points={
         'console_scripts': [
             "example_scene = droids_controller.example_scene:main",
+            "drive_straight = droids_controller.drive_straight:main",
+            "song_drive_straight_rotate = droids_controller.song_drive_straight_rotate:main",
+            "drive_arc = droids_controller.drive_arc:main",
+            "rotate = droids_controller.rotate:main",
+            "play_song = droids_controller.play_song:main",
+            "multi_segment_path = droids_controller.multi_segment_path:main",
+            "multiple_robots_2 = droids_controller.multiple_robots_2:main",
+            "multiple_robots_3 = droids_controller.multiple_robots_3:main",
         ],
     },
 )
