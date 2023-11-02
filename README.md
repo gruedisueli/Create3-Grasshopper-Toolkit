@@ -63,6 +63,8 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
     ```
 
 ### Separately, if you are not using this repo and are just creating a new ros2 workspace in a fresh repo, here are some directions:
+1. Again, this is not necessary if you are just forking the repo and working off of it. 
+1. If you decide to create a new codebase in a completely fresh ros2 workspace, then you'll need to do this.
 1. Set up your ros2 workspace following instructions in this [tutorial](https://www.youtube.com/watch?v=idQb2pB-h2Q), which I've outlined below:
     1. create an empty repo, clone it locally
     1. add to .gitignore file:
