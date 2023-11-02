@@ -43,9 +43,9 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
 1. set the correct version of setup tools "pip install setuptools==58.2.0" because you might get the error outlined [here](https://answers.ros.org/question/348083/error-ros2-run-package-not-found/). You might have to install pip first.
 1. Verify contents of bashrc contains following lines at the bottom, by running the command "gedit ~/.bashrc", adding them if missing:
     ```
-    "source /opt/ros/humble/setup.bash"
-    "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash"
-    "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
+    source /opt/ros/humble/setup.bash
+    source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+    export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
     ```
 
 ### Recommended use of the ros2 workspace in this project:
@@ -57,9 +57,9 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
 1. add at the bottom of the file: "source ~/{your project directory}/ros2_ws/install/setup.bash", OR if running on a non-admin user: "source home/{username}/{path to repo in your user directory}/ros2_ws/install/setup.bash"
     1. Important, if you are not the admin user, and a separate admin user set up ros2 on your system already, add the following to the .bashrc file as well:
     ```
-    "source /opt/ros/humble/setup.bash"
-    "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash"
-    "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
+    source /opt/ros/humble/setup.bash
+    source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+    export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
     ```
 
 ### Separately, if you are not using this repo and are just creating a new ros2 workspace in a fresh repo, here are some directions:
@@ -69,10 +69,10 @@ A toolkit for generating robot instructions from within Rhino3d's Grasshopper pl
     1. create an empty repo, clone it locally
     1. add to .gitignore file:
     ```
-        "/ros2_ws/build"
-        "/ros2_ws/install"
-        "/ros2_ws/log"
-        "*.pyc"
+        /ros2_ws/build
+        /ros2_ws/install
+        /ros2_ws/log
+        *.pyc
     ```
     1. in the repo root, run "mkdir ros2_ws"
     1. "cd ros2_ws"
