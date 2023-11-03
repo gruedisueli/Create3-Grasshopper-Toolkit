@@ -28,7 +28,8 @@ setup(
             "play_song = droids_controller.play_song:main",
             "multi_segment_path = droids_controller.multi_segment_path:main",
             "multiple_robots_2 = droids_controller.multiple_robots_2:main",
-            "multiple_robots_3 = droids_controller.multiple_robots_3:main"
+            "multiple_robots_3 = droids_controller.multiple_robots_3:main",
+            "chorus = droids_controller.chorus:main"
         ],
     },
 )
